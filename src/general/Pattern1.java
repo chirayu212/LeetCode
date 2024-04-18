@@ -13,19 +13,26 @@ public class Pattern1 {
 		
 		
 		
-		String [] a = s.split(",");
+		/*String [] a = s.split(",");
 		
-		for(String q :a)
+		for(String d : a)
 		{
-			Pattern p = Pattern.compile("-?\\d+");
+			System.out.println(d);
+		}*/
+		
+		
+			Pattern p = Pattern.compile("\\d+");
 			
-			Matcher m = p.matcher(q);
+			Matcher m = p.matcher(s);
 			
 			while(m.find())
 			{
+				
 				System.out.println(m.group());
+				
+				
 			}
-		}
+		
 		
 		System.out.println(result);
 		

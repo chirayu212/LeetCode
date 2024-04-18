@@ -1,15 +1,12 @@
 package general;
 
-public class B extends A{
-	
-	public void display()
-	{
-		System.out.println("This is demo");
-	}
-	
-	public void test()
-	{
-		System.out.println("this is test");
-	}
-
+class B extends A
+{
+        public B(int j)
+        {
+                 super(j);
+                 System.out.println(i);
+                 this.i = j * 20;
+        }
 }
+ 

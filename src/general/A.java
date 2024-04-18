@@ -1,10 +1,15 @@
 package general;
 
-public class A {
-	
-	public void display()
-	{
-		System.out.println("This is test");
-	}
 
+class A
+{
+        int i = 10;
+ 
+        public A(int j)
+        {
+                 System.out.println(i);
+                 this.i = j * 10;
+        }
 }
+ 
+

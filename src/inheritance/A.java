@@ -2,30 +2,39 @@ package inheritance;
 
 import java.sql.SQLDataException;
 
-public class A implements CommonInt {
-	
-	public static void main(String[] args) {
+public class A implements Test,Demo {
+
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
 		
+		System.out.println("In test");
 		
-		String s = "Chirayu Gopal Maheshwari";
-		String result="";
-		
-		String[] s1 = s.split(" ");
-		
-		for(int i=0;i<s1.length-1;i++)
-		{
-			result = result+String.valueOf(s1[i].charAt(0)).toUpperCase()+".";
-		}
-		
-		result = result+s1[s1.length-1];
-		
-		System.out.println(result);
 	}
 
 	@Override
-	public void doNothing() {
+	public void play() {
 		// TODO Auto-generated method stub
+		System.out.println("In play");
+		
+		
+	
 		
 	}
+	
+	public static void main(String[] args) {
+		
+		A a = new A();
+		
+		a -> a.
+		
+		a.test();
+		a.play();
+	}
+	
+	
+		
+		
+		
 
 }
