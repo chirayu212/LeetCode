@@ -6,7 +6,7 @@ public class Mindtree {
 		// TODO Auto-generated method stub
 		
 		
-		int [] arr = {2,5,6,3,1,4,5};
+		int [] arr = {600,80,2,4,3,1,5,7,9,10};
 		int temp= 0, result=0;
 		
 		
